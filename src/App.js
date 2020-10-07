@@ -55,6 +55,7 @@ const taskList = props.tasks.map(task => <Todo
         className="todo-list stack-large stack-exception"
         aria-labelledby="list-heading"
       >
+      // imported from props
         {taskList}
       </ul>
     </div>
